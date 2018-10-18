@@ -120,9 +120,9 @@ const styles = StyleSheet.create({
     },
     textStyle:{
         flex:1,
-        fontSize:themeStyle.FONT_SIZE_SMALL,
-        backgroundColor: themeStyle.WHITE_COLOR,
-        color:themeStyle.BLACK_COLOR,
+        fontSize:14,
+        backgroundColor: '#ffffff',
+        color:'#000000',
         alignSelf: 'stretch',
         marginLeft:5,
         marginRight:5,
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     },  
    
     kpiLabelStyle: {
-        backgroundColor: themeStyle.KPI_BACKGROUND_COLOR,
+        backgroundColor: '#55B74A',
         // position: 'absolute',
         // right: 0,
         width: 30,
@@ -142,12 +142,12 @@ const styles = StyleSheet.create({
     },
     kpiLabelText: {        
         transform: [{ rotate: '-90deg'}],
-        color: themeStyle.WHITE_COLOR,
+        color: '#ffffff',
         fontWeight: 'bold',
-        fontSize: themeStyle.FONT_SIZE_SMALL
+        fontSize: 14
     },
     liveLabelStyle: {
-        backgroundColor: themeStyle.LIVE_BACKGROUND_COLOR,
+        backgroundColor: '#0270BA',
         // position: 'absolute',
         // right: 0,
         width: 30,
@@ -158,12 +158,12 @@ const styles = StyleSheet.create({
     },
     liveLabelText: {        
         transform: [{ rotate: '-90deg'}],
-        color: themeStyle.WHITE_COLOR,
+        color: '#ffffff',
         fontWeight: 'bold',
-        fontSize: themeStyle.FONT_SIZE_SMALL,
+        fontSize: 14,
     },
     groupLabelStyle: {
-        backgroundColor: themeStyle.GROUP_BACKGROUND_COLOR,
+        backgroundColor: '#CF25CA',
         // position: 'absolute',
         // right: 0,
         width: 30,
