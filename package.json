@@ -1,0 +1,26 @@
+{
+  "name": "react-native-objective-list",
+  "version": "1.0.0",
+  "description": "React Native Frog Objective List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSysNoida/ObjectiveList.git"
+  },
+  "keywords": [
+    "Objective",
+    "List"
+  ],
+  "author": "Frog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RSysNoida/ObjectiveList/issues"
+  },
+  "homepage": "https://github.com/RSysNoida/ObjectiveList#readme",
+  "dependencies": {
+    "react-native-collapsible": "^1.2.0"
+  }
+}
